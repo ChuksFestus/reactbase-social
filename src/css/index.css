@@ -1,0 +1,37 @@
+@tailwind preflight;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  background-image: linear-gradient(
+    to right top,
+    #9c0945,
+    #98114e,
+    #931955,
+    #8d205d,
+    #862663
+  );
+  color: #ffe3ec;
+  font-family: "Poppins", sans-serif;
+}
+.landingPage {
+  @apply mx-auto flex items-center justify-center;
+  height: 100vh;
+  flex-direction: column;
+}
+.btn {
+  margin-top: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.main {
+  height: 100vh;
+  @apply bg-grey-lightest;
+  color: #2f4858;
+}
