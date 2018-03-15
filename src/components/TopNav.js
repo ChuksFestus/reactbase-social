@@ -6,10 +6,10 @@ const TopNav = () => (
       style={{ top: 0, width: "100vw" }}
       className="container fixed pin-t mx-auto z-10 flex items-center py-3 shadow bg-red-jazz text-white"
     >
-      <div style={{ marginLeft: 30 }} className="w-4/5">
+      <div style={{ marginLeft: 30 }} className="w-3/5">
         airbevy
       </div>
-      <nav className="w-1/5 topnav">
+      <nav className="w-2/5 topnav">
         <i className="ion-ios-people" />
         <i className="ion-ios-bell" />
         <i className="ion-log-out" />

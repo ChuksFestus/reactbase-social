@@ -39,3 +39,13 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.profile-top {
+  background-image: linear-gradient(
+    to right top,
+    #9c0945,
+    #931955,
+    #862663,
+    #77316d,
+    #663973
+  );
+}
